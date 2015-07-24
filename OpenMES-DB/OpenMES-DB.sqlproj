@@ -60,5 +60,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="UserDatabaseCreation.sql" />
+    <None Include="ImportSeedData.sql" />
   </ItemGroup>
 </Project>
