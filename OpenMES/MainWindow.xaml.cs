@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using OpenMES.Assemblies.Visual;
 
 namespace OpenMES
 {
@@ -23,7 +24,17 @@ namespace OpenMES
         public MainWindow()
         {
             InitializeComponent();
-            txtTitle.Text = "Welcome to OpenMES";
+
+            GetControlValues();
+                        
         }
+
+        public void GetControlValues()
+        {
+
+            throw new NotImplementedException();
+        }
+
+        
     }
 }

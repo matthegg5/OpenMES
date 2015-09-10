@@ -5,9 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:OpenMES"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        <TextBlock x:Name="txtTitle" HorizontalAlignment="Left" Margin="31,29,0,0" TextWrapping="Wrap" Text="txtTitle" VerticalAlignment="Top" Height="31" Width="278"/>
+        Title="MainWindow" Height="226" Width="333">
+    <Grid Margin="0,0,2,-21">
+        <TextBlock x:Name="lblTitle" HorizontalAlignment="Left" Margin="31,29,0,0" TextWrapping="Wrap" Text="lblTitle" VerticalAlignment="Top" Height="31" Width="278"/>
+        <TextBox x:Name="txtUserName" HorizontalAlignment="Left" Height="23" Margin="135,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock x:Name="lblUserName" HorizontalAlignment="Left" Margin="50,60,0,0" TextWrapping="Wrap" Text="lblUserName" VerticalAlignment="Top" Height="23" Width="71"/>
+        <TextBlock x:Name="lblPassword" HorizontalAlignment="Left" Margin="50,88,0,0" TextWrapping="Wrap" Text="lblPassword" VerticalAlignment="Top" Height="23" Width="71"/>
+        <PasswordBox x:Name="bxPwd" HorizontalAlignment="Left" Margin="135,88,0,0" VerticalAlignment="Top" Width="120" Height="23"/>
+        <Button x:Name="btnLogin" Content="Login" HorizontalAlignment="Left" Margin="135,130,0,0" VerticalAlignment="Top" Width="75"/>
 
     </Grid>
 </Window>
